@@ -1,8 +1,7 @@
 {
   "name": "petpal",
   "version": "1.0.0",
-  "description": "PetPal - A comprehensive pet care and health management platform",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,18 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.6.0",
-    "date-fns": "^2.30.0"
+    "lucide-react": "^0.469.0",
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.0",
-    "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16",
-    "typescript": "^5.2.0",
-    "@types/react": "^18.2.0",
-    "@types/node": "^20.0.0"
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.16"
   }
 }
